@@ -1,4 +1,4 @@
-public abstract class Animal{
+public abstract class Animal implements AnimalInt, MarkerInt{
     //abstract is a non access modifier
     //you cannot instatiate an abstract class
     //abstract class can have attributes and constructors
@@ -22,4 +22,10 @@ public abstract class Animal{
     {
         return(this.name + " " + this.specie + " " + this.age);
     }
+      public void move(){
+        System.out.println("Animals can move");
+      }
+     public void sleep(){
+                System.out.println("All Animals sleep");
+     }
 }

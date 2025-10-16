@@ -10,6 +10,8 @@ public class Cat extends Animal{
        }
    public void eat(){
     System.out.println("I eat cat food");
+   // AnimalInt.temp();
+    
    }
     //getsetters
     //tostring
