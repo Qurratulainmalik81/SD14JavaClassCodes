@@ -2,7 +2,7 @@ import java.io.*;
 
 public class FileDemo {
      public static void main(String[] args) { 
-      //   System.out.println("File Class in Java");
+      //   System.out.println("File Class in Java");s
       //   try{
       //    File file = new File("Java.txt");
       //   // FileWriter fw = new FileWriter(file);
