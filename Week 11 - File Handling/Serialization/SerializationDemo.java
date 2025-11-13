@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-public class TestEmployee {
+public class SerializationDemo {
     public static void main(String[] args) {
 
         ArrayList<Employee> emp = new ArrayList<>();

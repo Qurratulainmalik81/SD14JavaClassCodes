@@ -45,18 +45,18 @@ public class FileDemo {
 
 //  System.out.println("--------------------------------");
 
-// System.out.println("FileOutputStream Class in Java");
-// try{
-//    FileOutputStream fout = new FileOutputStream("Binary.txt");
-//    String S = "This is out first binary file";
-//    byte b[] = S.getBytes();
-//    fout.write(b);
-//    fout.close();
-// }
-// catch(IOException e)
-// {System.out.println(e.getMessage());}
+System.out.println("FileOutputStream Class in Java");
+try{
+   FileOutputStream fout = new FileOutputStream("Binary.txt");
+   String S = "This is out first binary file";
+   byte b[] = S.getBytes();
+   fout.write(b);
+   fout.close();
+}
+catch(IOException e)
+{System.out.println(e.getMessage());}
 
-//  System.out.println("--------------------------------");
+ System.out.println("--------------------------------");
 System.out.println("FileInputStream Class in Java");
 try{
    FileInputStream fin = new FileInputStream("Binary.txt");
