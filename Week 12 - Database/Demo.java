@@ -1,15 +1,12 @@
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
       //write single record in to DB
- Employee E1 = new Employee(1, "Dave", "Husk", 200000);
-
+ Employee E1 = new Employee(3, "Hateem", "Usman", 20000);
+  System.out.println(E1);
       String query = " INSERT INTO employee (id, fname, lname, salary) " + "Values (?,?,?,?)";
 
         try (Connection con = DatabaseConnection.getcon();
